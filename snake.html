@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snake Game - GameZone</title>
     <link rel="stylesheet" href="styles.css">
     <style>
@@ -289,7 +287,7 @@
                     ctx.stroke();
                 }
                 
-                // Draw snake
+                // Draw snake as it move 
                 for (let i = 0; i < snake.length; i++) {
                     // Use a gradient color from head to tail
                     const ratio = i / snake.length;
