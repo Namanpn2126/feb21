@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -36,7 +36,7 @@ a:hover {
     background-color: #2980b9;
 }
 
-/* Header Styles */
+
 header {
     background-color: #222;
     padding: 1rem 2rem;
@@ -82,7 +82,7 @@ main {
     min-height: calc(100vh - 150px);
 }
 
-/* Hero Section */
+
 .hero {
     text-align: center;
     padding: 4rem 0;
@@ -101,7 +101,7 @@ main {
     margin-bottom: 2rem;
 }
 
-/* Game Cards */
+
 .featured-games, .games-list {
     margin-bottom: 3rem;
 }
@@ -176,7 +176,7 @@ main {
     margin-bottom: 1rem;
 }
 
-/* Contact Page */
+
 .contact-section {
     max-width: 800px;
     margin: 0 auto;
@@ -215,7 +215,7 @@ main {
     border-radius: 10px;
 }
 
-/* Auth Pages */
+
 .auth-section {
     display: flex;
     justify-content: center;
