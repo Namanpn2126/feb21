@@ -107,7 +107,7 @@
                 <li>← - Move Left</li>
                 <li>→ - Move Right</li>
             </ul>
-            <p>Eat the red apples to grow and increase your score!</p>
+            <p>Eat the red apples to grow and increase your score!!!</p>
             <p>The game ends if the snake hits the wall or itself.</p>
         </div>
     </div>
@@ -148,7 +148,7 @@
 
     <script src="script.js"></script>
     <script>
-        // Snake Game JavaScript
+        
         document.addEventListener('DOMContentLoaded', () => {
             const canvas = document.getElementById('snake-board');
             const ctx = canvas.getContext('2d');
@@ -158,7 +158,7 @@
             const scoreElement = document.getElementById('score');
             const highScoreElement = document.getElementById('high-score');
             
-            // Game variables
+        
             const gridSize = 20;
             const tileCount = canvas.width / gridSize;
             let snake = [];
@@ -173,9 +173,9 @@
             let gameSpeed = 100; // milliseconds
             let gameInterval;
             
-            // Initialize the game
-            function initGame() {
-                // Create initial snake (3 segments)
+           
+		function initGame() {
+                
                 snake = [
                     {x: 10, y: 10},
                     {x: 9, y: 10},
@@ -188,7 +188,7 @@
                 scoreElement.textContent = score;
                 highScoreElement.textContent = highScore;
                 
-                // Generate first food location
+                
                 placeFood();
                 
                 // Clear any existing interval
@@ -273,7 +273,7 @@
                 ctx.fillStyle = '#f8f8f8';
                 ctx.fillRect(0, 0, canvas.width, canvas.height);
                 
-                // Draw a grid
+                
                 ctx.strokeStyle = '#eaeaea';
                 for (let i = 0; i < tileCount; i++) {
                     ctx.beginPath();
@@ -474,7 +474,7 @@
                 }
             }
             
-            // Initialize the game
+            
             initGame();
             draw();
         });
